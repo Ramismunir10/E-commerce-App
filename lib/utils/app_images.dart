@@ -13,6 +13,18 @@ class AppImages {
   static String pepsican = 'assets/images/pepsican.png';
   static String carrot = 'assets/images/carrot.png';
   static String banner = 'assets/images/banner.png';
+
   static String organicbanana = 'assets/images/organicbanana.png';
+  static String redapple = 'assets/images/redapple.png';
+  static String bellpepperred = 'assets/images/bellpepperred.png';
+  static String ginger = 'assets/images/ginger.png';
+  static String beefbone = 'assets/images/beefbone.png';
+  static String boilerchicken = 'assets/images/boilerchicken.png';
+
   static String fruitsvegetables = 'assets/images/fruitsvegetables.png';
+  static String bakerySnacks = 'assets/images/bakerysnacks.png';
+  static String beverages = 'assets/images/beverages.png';
+  static String cookingoil = 'assets/images/cookingoil.png';
+  static String dairyeggs = 'assets/images/dairyeggs.png';
+  static String meatfish = 'assets/images/meatfish.png';
 }

@@ -97,7 +97,7 @@ class ExploreScreen extends StatelessWidget {
                             SizedBox(
                               width: 111,
                               height: 75,
-                              child: Image.asset(AppImages.fruitsvegetables),
+                              child: Image.asset(AppImages.cookingoil),
                             ),
                             const SizedBox(
                               height: 18,
@@ -139,7 +139,7 @@ class ExploreScreen extends StatelessWidget {
                             SizedBox(
                               width: 111,
                               height: 75,
-                              child: Image.asset(AppImages.fruitsvegetables),
+                              child: Image.asset(AppImages.meatfish),
                             ),
                             const SizedBox(
                               height: 18,
@@ -173,7 +173,7 @@ class ExploreScreen extends StatelessWidget {
                             SizedBox(
                               width: 111,
                               height: 75,
-                              child: Image.asset(AppImages.fruitsvegetables),
+                              child: Image.asset(AppImages.bakerySnacks),
                             ),
                             const SizedBox(
                               height: 18,
@@ -212,7 +212,7 @@ class ExploreScreen extends StatelessWidget {
                             SizedBox(
                               width: 111,
                               height: 75,
-                              child: Image.asset(AppImages.fruitsvegetables),
+                              child: Image.asset(AppImages.dairyeggs),
                             ),
                             const SizedBox(
                               height: 18,
@@ -254,7 +254,7 @@ class ExploreScreen extends StatelessWidget {
                               SizedBox(
                                 width: 111,
                                 height: 75,
-                                child: Image.asset(AppImages.fruitsvegetables),
+                                child: Image.asset(AppImages.beverages),
                               ),
                               const SizedBox(
                                 height: 18,

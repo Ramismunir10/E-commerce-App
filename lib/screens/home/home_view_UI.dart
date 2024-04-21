@@ -1,10 +1,12 @@
 import 'package:ecommerceapp/screens/Account/account_view_UI.dart';
+import 'package:ecommerceapp/screens/Exclusive%20Offer/redapple.dart';
 import 'package:ecommerceapp/screens/Explore/explore_view_UI.dart';
 import 'package:ecommerceapp/screens/cart/cart_view_UI.dart';
 import 'package:ecommerceapp/screens/favourite/favourite_view_UI.dart';
 import 'package:ecommerceapp/screens/home/home_view_model_logic.dart';
 import 'package:ecommerceapp/utils/app_images.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class homescreen extends StatefulWidget {
   const homescreen({super.key});
@@ -128,22 +130,32 @@ class _homescreenState extends State<homescreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Customhome(
-                          itemname: 'Beef BOne',
+                          itemname: 'Organic Banana',
                           homeImage: AppImages.organicbanana,
                           quantity: 'djnknfe'),
                       const SizedBox(
                         width: 20,
                       ),
-                      Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
-                          quantity: 'djnknfe'),
+                      GestureDetector(
+                        onTap: () {
+                          // Navigate to the new page when the container is clicked
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => NaturalRedApple()),
+                          );
+                        },
+                        child: Customhome(
+                            itemname: 'Red Apple',
+                            homeImage: AppImages.redapple,
+                            quantity: 'djnknfe'),
+                      ),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Organic Banana',
+                          homeImage: AppImages.organicbanana,
                           quantity: 'djnknfe'),
                     ],
                   ),
@@ -179,22 +191,22 @@ class _homescreenState extends State<homescreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Bell Pepper REd',
+                          homeImage: AppImages.bellpepperred,
                           quantity: 'djnknfe'),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Ginger',
+                          homeImage: AppImages.ginger,
                           quantity: 'djnknfe'),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Bell Pepper Red',
+                          homeImage: AppImages.bellpepperred,
                           quantity: 'djnknfe'),
                     ],
                   ),
@@ -295,22 +307,22 @@ class _homescreenState extends State<homescreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Beef Bone',
+                          homeImage: AppImages.beefbone,
                           quantity: 'djnknfe'),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Boiler Chicken',
+                          homeImage: AppImages.boilerchicken,
                           quantity: 'djnknfe'),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
-                          itemname: 'Beef BOne',
-                          homeImage: AppImages.orangejuice,
+                          itemname: 'Beef Bone',
+                          homeImage: AppImages.beefbone,
                           quantity: 'djnknfe'),
                     ],
                   ),
@@ -320,14 +332,15 @@ class _homescreenState extends State<homescreen> {
           ),
         ),
         bottomNavigationBar: BottomNavigationBar(
-          //type: BottomNavigationBarType.fixed,
+          type: BottomNavigationBarType.fixed,
           items: [
             BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.breakfast_dining_outlined,
-                  color: Colors.yellow,
-                ),
-                label: 'Shop',),
+              icon: Icon(
+                Icons.breakfast_dining_outlined,
+                color: Colors.yellow,
+              ),
+              label: 'Shop',
+            ),
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.find_in_page_outlined,
