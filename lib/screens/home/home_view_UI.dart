@@ -132,7 +132,7 @@ class _homescreenState extends State<homescreen> {
                       Customhome(
                           itemname: 'Organic Banana',
                           homeImage: AppImages.organicbanana,
-                          quantity: 'djnknfe'),
+                          quantity: '7pcs, Priceg          '),
                       const SizedBox(
                         width: 20,
                       ),
@@ -146,9 +146,9 @@ class _homescreenState extends State<homescreen> {
                           );
                         },
                         child: Customhome(
-                            itemname: 'Red Apple',
+                            itemname: 'Red Apple          ',
                             homeImage: AppImages.redapple,
-                            quantity: 'djnknfe'),
+                            quantity: '1kg, Priceg             '),
                       ),
                       const SizedBox(
                         width: 20,
@@ -156,7 +156,7 @@ class _homescreenState extends State<homescreen> {
                       Customhome(
                           itemname: 'Organic Banana',
                           homeImage: AppImages.organicbanana,
-                          quantity: 'djnknfe'),
+                          quantity: '7pcs, Priceg            '),
                     ],
                   ),
                 ),
@@ -191,23 +191,23 @@ class _homescreenState extends State<homescreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Customhome(
-                          itemname: 'Bell Pepper REd',
+                          itemname: 'Bell Pepper Red',
                           homeImage: AppImages.bellpepperred,
-                          quantity: 'djnknfe'),
+                          quantity: '1kg, Priceg            '),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
-                          itemname: 'Ginger',
+                          itemname: 'Ginger                ',
                           homeImage: AppImages.ginger,
-                          quantity: 'djnknfe'),
+                          quantity: '250gm, Priceg       '),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
                           itemname: 'Bell Pepper Red',
                           homeImage: AppImages.bellpepperred,
-                          quantity: 'djnknfe'),
+                          quantity: '1kg, Priceg            '),
                     ],
                   ),
                 ),
@@ -256,7 +256,7 @@ class _homescreenState extends State<homescreen> {
                               SizedBox(
                                 height: 72,
                                 width: 72,
-                                child: Image.asset(AppImages.pepsican),
+                                child: Image.asset(AppImages.pulses),
                               ),
                               const Text(
                                 '  Pulses',
@@ -285,7 +285,7 @@ class _homescreenState extends State<homescreen> {
                               SizedBox(
                                 height: 72,
                                 width: 72,
-                                child: Image.asset(AppImages.pepsican),
+                                child: Image.asset(AppImages.rice),
                               ),
                               const Text(
                                 ' Rice',
@@ -307,23 +307,23 @@ class _homescreenState extends State<homescreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Customhome(
-                          itemname: 'Beef Bone',
+                          itemname: 'Beef Bone         ',
                           homeImage: AppImages.beefbone,
-                          quantity: 'djnknfe'),
+                          quantity: '1kg, Priceg            '),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
                           itemname: 'Boiler Chicken',
                           homeImage: AppImages.boilerchicken,
-                          quantity: 'djnknfe'),
+                          quantity: '1kg, Priceg             '),
                       const SizedBox(
                         width: 20,
                       ),
                       Customhome(
                           itemname: 'Beef Bone',
                           homeImage: AppImages.beefbone,
-                          quantity: 'djnknfe'),
+                          quantity: '1kg, Priceg            '),
                     ],
                   ),
                 ),

@@ -20,6 +20,10 @@ class AppImages {
   static String ginger = 'assets/images/ginger.png';
   static String beefbone = 'assets/images/beefbone.png';
   static String boilerchicken = 'assets/images/boilerchicken.png';
+  static String rice = 'assets/images/rice.png';
+  static String pulses = 'assets/images/pulses.png';
+
+  static String naturalRedApple = 'assets/images/naturalredapple.png';
 
   static String fruitsvegetables = 'assets/images/fruitsvegetables.png';
   static String bakerySnacks = 'assets/images/bakerysnacks.png';

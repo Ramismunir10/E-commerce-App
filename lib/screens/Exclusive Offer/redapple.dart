@@ -52,7 +52,7 @@ class NaturalRedApple extends StatelessWidget {
                   child: SizedBox(
                     height: 200,
                     width: 329,
-                    child: Image.asset(AppImages.applegrapejuice),
+                    child: Image.asset(AppImages.naturalRedApple),
                   ),
                 ),
               ),
